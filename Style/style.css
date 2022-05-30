@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/*----------------NavBar----------------*/
+
+.NavBar ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.NavBar li {
+    float: right;
+    padding: 20px;
+
+}
+
+.NavBar li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/*----------------Sign in Page----------------*/
+
+.form {
+    margin: 35% 35% 0 35%;
+    margin-top: 20px;
+    text-align: center;
+    border: solid 2px #333;
+    border-radius: 5px;
+}
+
+.form h2 {
+    text-align: left;
+    padding: 10px;
+
+}
+
+.form label {
+    text-align: left;
+    padding: 10px;
+
+}
+
+.form input {
+    border: 2px solid #333;
+    border-radius: 10px;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+}
+
+.form button {
+    border-radius: 10px;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    color: white;
+    background-color: #333;
+}
+
+.form p {
+    color: rgb(233, 107, 5);
+    padding: 12px 20px;
+    margin: 8px 0px;
+}
+
+.form input:hover {
+    opacity: 0.7;
+}
+
+.form button:hover {
+    background-color: rgb(233, 107, 5);
+    color: black;
+}
+
+/*----------------Admin Profile Page----------------*/
+
+.adminProfile ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.adminProfile li {
+    padding: 20px;
+
+}
+
+.adminProfile li a {
+    text-decoration: none;
+}
+
+/*----------------Search Table----------------*/
+
+.table {
+    margin: 35% 35% 0 18%;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 5px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table td,
+.table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(233, 107, 5);
+    color: white;
+}
+
+/*----------------Product Card----------------*/
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productCard {
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.3);
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    margin: 2rem;
+    background-color: rgb(163, 163, 163);
+}
+
+.productCard:hover {
+    box-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0.5);
+}
+
+.productCard img {
+    border-radius: 10px 10px 0px 0px;
+    height: 85%;
+    width: 100%;
+}
+
+.productCard button {
+    border-radius: 0px 0px 10px 10px;
+    border: none;
+    padding: 12px;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.productCard button:hover {
+    color: black;
+    background-color: rgb(233, 107, 5);
+}
+
+/*----------------Categories Card----------------*/
+
+.categoryCard {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.categoryCard li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.categories img {
+    background: transparent;
+    box-shadow: 5px 5px 5px #999;
+    float: left;
+    border-radius: 4%;
+    width: 250px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.categories:hover {
+    filter: drop-shadow(2px 2px 10px black);
+}
+
+.categories {
+    font-size: 1.5vw;
+    text-align: center;
+}
